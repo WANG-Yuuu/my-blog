@@ -1,29 +1,38 @@
 ---
-title: "Magisches Theater"
+title: Hermann's Echo
 layout: hextra-home
 ---
 
-<!-- 这是一个大标题组件 -->
-<div class="hextra-hero-container">
-  <h1 class="hextra-hero-title">
-    The Bird Fights Its Way Out of The Egg.
-  </h1>
-  <p class="hextra-hero-subtitle">
-    欢迎来到王煜的精神剧院。<br>这里仅供狂人入内。
-  </p>
-  
-  <!-- 两个按钮 -->
-  <div class="hextra-hero-buttons">
-    <a class="hextra-primary-button" href="/blog/">
-      阅读日记 &rarr;
-    </a>
-    <a class="hextra-secondary-button" href="/about/">
-      关于我
-    </a>
-  </div>
+<div class="hx-mt-6 mb-6">
+{{< hextra/hero-headline >}}
+  For Madmen Only
+{{< /hextra/hero-headline >}}
 </div>
 
-<!-- 下面可以写一些介绍 -->
-### 这里的规则
-1. 保持真实。
-2. 允许孤独。
+<div class="mb-12">
+{{< hextra/hero-subtitle >}}
+  欢迎来到王煜的精神剧院 &nbsp;·&nbsp; 这里仅供狂人入内
+{{< /hextra/hero-subtitle >}}
+</div>
+
+<div class="mb-6">
+{{< hextra/hero-button text="开始阅读" link="/blog/" >}}
+</div>
+
+<div class="hx-mt-6"></div>
+
+{{< cards >}}
+  {{< card link="/blog/" title="日记" icon="document-text" subtitle="记录思考与生活的碎片" >}}
+  {{< card link="/docs/" title="文档" icon="book-open" subtitle="知识整理与学习笔记" >}}
+  {{< card link="/about/" title="关于" icon="user" subtitle="了解更多关于我的信息" >}}
+{{< /cards >}}
+
+## 这里的规则
+
+{{< callout type="info" >}}
+  **保持真实** - 真诚地表达自己的想法
+{{< /callout >}}
+
+{{< callout type="warning" >}}
+  **允许孤独** - 独处是思考的必要条件
+{{< /callout >}}
