@@ -18,8 +18,8 @@ title = "WangYu's HOME"
 [menu]
   [[menu.main]]
     identifier = "docs"
-    name = "PM"
-    url = "/PM/"
+    name = "PM修炼"
+    url = "/pm/"
     weight = 1
   [[menu.main]]
     identifier = "blog"
