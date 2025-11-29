@@ -1,0 +1,18 @@
+{
+  "name": "hermanns-echo",
+  "version": "1.0.0",
+  "description": "Personal blog built with Hugo and Hextra theme",
+  "scripts": {
+    "dev": "hugo server -D --disableFastRender",
+    "build": "hugo --minify",
+    "clean": "rm -rf public resources",
+    "preview": "hugo server --disableFastRender"
+  },
+  "keywords": [
+    "hugo",
+    "hextra",
+    "blog"
+  ],
+  "author": "Yu Wang",
+  "license": "MIT"
+}
