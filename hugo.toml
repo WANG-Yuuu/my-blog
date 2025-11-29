@@ -1,9 +1,15 @@
 baseURL = "https://yu-wang.me/"
 languageCode = "zh-cn"
 title = "Hermann's Echo"
-theme = "hextra"
+# 注意：我删除了 theme = "hextra" 这行，因为它会导致构建失败
 
-# 允许 HTML 渲染（Hextra 很多组件需要这个）
+# --- 1. 核心修复：使用 Go Module 导入主题 ---
+# 这是解决 Netlify "找不到主题" 的关键
+[module]
+  [[module.imports]]
+    path = "github.com/imfing/hextra"
+
+# --- 2. 渲染设置 ---
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -11,7 +17,7 @@ theme = "hextra"
   [markup.highlight]
     noClasses = false
 
-# 菜单配置
+# --- 3. 菜单配置 ---
 [menu]
   [[menu.main]]
     identifier = "blog"
@@ -24,6 +30,7 @@ theme = "hextra"
     url = "/about/"
     weight = 2
 
+# --- 4. 详细参数 ---
 [params]
   description = "For Madmen Only."
   
@@ -33,28 +40,28 @@ theme = "hextra"
     displayLogo = false
     logo = { text = "Hermann's Echo", link = "/" }
 
-  # 搜索功能 (Hextra 的强项)
+  # 搜索功能
   [params.search]
     enable = true
     type = "flexsearch"
     
-  # 页脚
+  # 页脚配置
   [params.footer]
     enable = true
     displayCopyright = true
-    displayPoweredBy = true
+    displayPoweredBy = false # 建议改为 false，让页面更干净，像黑塞的风格
     content = "© 2025 Yu Wang. Built with Hextra."
 
-  # 博客配置
+  # 博客配置 (关键修复点：解决 sortBy 报错)
   [params.blog]
-    list = true # 在博客列表页显示
+    list = true 
     sortBy = "date"
     
-  # 编辑链接（可选）
+  # 编辑链接 (个人博客通常不需要别人编辑，建议关掉)
   [params.editURL]
     enable = false
     
-  # 主题外观
+  # 主题外观 (日/夜模式切换)
   [params.theme]
     default = "system"
     displayToggle = true
