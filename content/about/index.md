@@ -1,11 +1,13 @@
 ---
-title: "关于我"
+title: "About"
 date: 2025-11-29
 ---
 
-## 王煜
+## 关于我
 
-欢迎来到我的精神剧院。
+我是谁？
+
+2023级南开大学金融学专业本科生~你也可以叫我Declan
 
 ### 关于这个博客
 
@@ -16,5 +18,5 @@ date: 2025-11-29
 
 ### 联系方式
 
-- Email: your-email@example.com
-- GitHub: [your-github](https://github.com/yourusername)
+- Email: wangyu4510@outlook.com
+- GitHub: [my-github](https://github.com/WANG-Yuuu)
