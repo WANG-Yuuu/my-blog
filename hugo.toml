@@ -1,6 +1,6 @@
 baseURL = "https://yu-wang.me/"
 languageCode = "zh-cn"
-title = "Hermann's Echo"
+title = "WangYu's HOME"
 
 [module]
   [[module.imports]]
@@ -34,7 +34,7 @@ title = "Hermann's Echo"
   [params.navbar]
     displayTitle = true
     displayLogo = false
-    logo = { text = "Hermann's Echo", link = "/" }
+    logo = { text = "WangYu's HOME", link = "/" }
 
   [params.search]
     enable = true
