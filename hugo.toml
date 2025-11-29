@@ -1,3 +1,36 @@
-baseURL = 'http://yu-wang.me/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://yu-wang.me/"
+languageCode = "zh-cn"
+title = "Hermann's Echo"
+theme = "PaperMod"
+
+[params]
+  # 风格设置
+  defaultTheme = "auto" # 跟随系统，或强制设为 "light"
+  env = "production"
+  title = "Magisches Theater"
+  description = "For Madmen Only."
+  author = "Yu Wang"
+  
+  # 界面微调
+  ShowReadingTime = true    # 显示阅读时间
+  ShowShareButtons = false  # 极简，不显示分享按钮
+  ShowPostNavLinks = true   # 显示上一篇/下一篇
+  
+  # 首页只显示摘要
+  homeInfoParams = { Title = "Welcome, Steppenwolf", Content = "这里是王煜的内心世界。\n\n我们畏惧孤独，但孤独是通往自我的唯一路径。" }
+
+[menu]
+  [[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
+    weight = 10
+  [[menu.main]]
+    identifier = "search"
+    name = "搜索"
+    url = "/search/"
+    weight = 20
+
+# 启用 HTML 渲染（为了支持某些特殊格式）
+[markup.goldmark.renderer]
+  unsafe = true
