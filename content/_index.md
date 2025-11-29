@@ -1,5 +1,5 @@
 ---
-title: Hermann's Echo
+title: WangYu's Home
 layout: hextra-home
 ---
 
@@ -11,7 +11,7 @@ layout: hextra-home
 
 <div class="hx-mt-6 hx-mb-6">
 {{< hextra/hero-headline >}}
-  欢迎来到王煜的&nbsp;<br class="sm:block hidden" />个人主页👋
+  欢迎来到王煜的&nbsp;<br class="sm:block hidden" />个人主页~
 {{< /hextra/hero-headline >}}
 </div>
 
