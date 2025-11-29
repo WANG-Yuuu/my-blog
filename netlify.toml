@@ -3,7 +3,5 @@
   command = "hugo --gc --minify"
 
 [build.environment]
-  HUGO_VERSION = "0.119.0"
-  
-  # 设置时区，避免日记时间错乱
+  HUGO_VERSION = "0.146.0"
   TZ = "Asia/Shanghai"
