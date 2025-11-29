@@ -48,6 +48,7 @@ theme = "hextra"
   # 博客配置
   [params.blog]
     list = true # 在博客列表页显示
+    sortBy = "date"
     
   # 编辑链接（可选）
   [params.editURL]
