@@ -1,102 +1,48 @@
-# Hermann's Echo - 个人博客
+<div align="center">
+  <h1 align="center">Hextra</h1>
+  <sup align="center"><a href="README.md">English</a> | <a href="README.zh-cn.md">简体中文</a> ｜ <a href="README.fa.md">فارسی</a></sup>
+  <p align="center">Modern, responsive, batteries-included Hugo theme for creating beautiful static websites.</p>
 
-基于 [Hextra](https://github.com/imfing/hextra) 主题构建的 Hugo 博客网站。
+Demo → [imfing.github.io/hextra](https://imfing.github.io/hextra/)
+</div>
 
-## 快速开始
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/5097752/263550533-c18343ca-3848-4230-b5c0-ee989d7916da.png">
+  <img alt="Hextra" src="https://user-images.githubusercontent.com/5097752/263550528-663599f9-17a1-4686-b5c4-3da233b5034d.png">
+</picture>
 
-### 本地开发
+<div align="right">
+<a href="https://github.com/imfing/hextra/actions/workflows/pages.yml"><img alt="GitHub Actions Status" src="https://github.com/imfing/hextra/actions/workflows/pages.yml/badge.svg"></a> <a href="https://app.netlify.com/sites/hugo-hextra/deploys"><img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/61d6e55a-2447-487e-b59f-c9537e5df175/deploy-status"></a>
+</div>
 
-```bash
-# 启动开发服务器
-hugo server -D
+## Features
 
-# 或者使用 npm（如果配置了）
-npm run dev
-```
+- **Beautiful Design** - Inspired by Nextra, Hextra utilizes Tailwind CSS to offer a modern design that makes your site look outstanding.
+- **Responsive Layout and Dark Mode** - It looks great on all devices, from mobile to desktop. Dark mode is also supported to accommodate various lighting conditions.
+- **Fast and Lightweight** - Powered by Hugo, a lightning-fast static-site generator housed in a single binary file, Hextra keeps its footprint minimal. No JavaScript or Node.js are needed to use it.
+- **Full-text Search** - Built-in offline full-text search powered by FlexSearch, no extra configuration required.
+- **Battery-included** - Markdown, syntax highlighting, LaTeX math formulae, diagrams and Shortcodes elements to enhance your content. Table of contents, breadcrumbs, pagination, sidebar navigation and more are all automatically generated.
+- **Multi-language and SEO Ready** - Multi-language sites made easy with Hugo's multilingual mode. Out-of-the-box support is included for SEO tags, Open Graph, and Twitter Cards.
 
-访问 http://localhost:1313 查看网站。
+## Quick Start
 
-### 构建网站
+### Use the template
 
-```bash
-# 构建生产版本
-hugo
+Using the [Hextra Starter Template](https://github.com/imfing/hextra-starter-template) is the simplest method to bootstrap a new website with Hextra theme. Get started by clicking the "Use this template" button on the template repository page.
 
-# 输出在 public/ 目录
-```
+The template repository also includes a [GitHub Actions workflow](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow) for deploying your website to GitHub Pages.
 
-## 项目结构
+<img alt="Hextra Starter Template" src="https://user-images.githubusercontent.com/5097752/263551418-c403b9a9-a76c-47a6-8466-513d772ef0b7.jpg" width=600/>
 
-```
-my-blog/
-├── content/           # 内容目录
-│   ├── _index.md     # 首页
-│   ├── blog/         # 博客文章
-│   ├── about/        # 关于页面
-│   └── docs/         # 文档
-├── static/           # 静态资源
-├── themes/hextra/    # Hextra 主题
-└── hugo.toml         # 配置文件
-```
+### Usage
 
-## 创建新文章
+Refer to the [documentation](https://imfing.github.io/hextra/docs) for more information.
 
-```bash
-# 创建博客文章
-hugo new blog/my-new-post.md
+## Contributing
 
-# 创建文档
-hugo new docs/my-doc.md
-```
-
-## 配置说明
-
-主要配置在 `hugo.toml` 文件中：
-
-- **baseURL**: 网站的基础 URL
-- **title**: 网站标题
-- **menu**: 导航菜单配置
-- **params**: 主题参数配置
-
-## Hextra 主题特性
-
-- 🎨 现代化设计
-- 📱 响应式布局
-- 🔍 全文搜索功能
-- 🌙 深色模式支持
-- 📝 Markdown 增强
-- 🚀 快速加载
-
-## 部署
-
-### Netlify
-
-项目已包含 `netlify.toml` 配置文件，可直接部署到 Netlify。
-
-### GitHub Pages
-
-可以使用 GitHub Actions 自动部署到 GitHub Pages。
-
-### Vercel
-
-也支持一键部署到 Vercel。
-
-## 自定义
-
-### 修改样式
-
-在 `assets/css/` 目录下创建自定义 CSS 文件。
-
-### 添加组件
-
-Hextra 提供了丰富的 shortcodes，参考：
-https://imfing.github.io/hextra/docs/guide/shortcodes/
-
-## 更多资源
-
-- [Hextra 文档](https://imfing.github.io/hextra/)
-- [Hugo 文档](https://gohugo.io/documentation/)
+Contributions are welcome.
+Check out the [contributing guide](.github/CONTRIBUTING.md) to get started.
 
 ## License
 
-MIT
+[MIT License](./LICENSE)
