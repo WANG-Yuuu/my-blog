@@ -1,0 +1,230 @@
+{
+  "main": {
+    "id": "31ff115eb941b98b",
+    "type": "split",
+    "children": [
+      {
+        "id": "230daae812032c2b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ec29bace34013288",
+            "type": "leaf",
+            "state": {
+              "type": "pkmer-downloader",
+              "state": {},
+              "icon": "bookmark",
+              "title": "Pkmer Market"
+            }
+          },
+          {
+            "id": "0c5436009625cc7a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/pm/folder/_index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_index"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "53cc7781efba3d75",
+    "type": "split",
+    "children": [
+      {
+        "id": "fd7e6c9492934a9c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a2acee80c8bf6870",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "485ca5f5225f9c9b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "aa605b9604a34e34",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c38814b96cb82fda",
+    "type": "split",
+    "children": [
+      {
+        "id": "b08b799567c4b1d6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1149c154a595e2d3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/docs/first-page.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "first-page 的反向链接列表"
+            }
+          },
+          {
+            "id": "d2776435ed1595a5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "content/docs/first-page.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "first-page 的出链列表"
+            }
+          },
+          {
+            "id": "3ed9a375ff91f025",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "71427b0311dc04cb",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "0c8addbf354f3eb8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "content/docs/first-page.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "first-page 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:创建新数据库": false,
+      "pkmer:Open Pkmer Market": false,
+      "obsidian-git:Open Git source control": false,
+      "copilot:Open Copilot Chat": false
+    }
+  },
+  "active": "0c5436009625cc7a",
+  "lastOpenFiles": [
+    "content/pm/_index.md",
+    "content/about.md",
+    "content/_index.md",
+    "public/android-chrome-512x512.png",
+    "public/pm/folder/leaf/index.html",
+    "public/pm/folder/leaf",
+    "public/pm/folder/index.xml",
+    "public/pm/first-page/index.html",
+    "public/pm/folder/index.html",
+    "public/pm/index.xml",
+    "public/pm/index.html",
+    "public/pm/folder",
+    "public/pm/first-page",
+    "public/pm",
+    "content/pm/folder/leaf.md",
+    "content/pm/folder/_index.md",
+    "content/pm/first-page.md",
+    "public/android-chrome-192x192.png",
+    "public/apple-touch-icon.png",
+    "public/favicon.svg",
+    "content/docs/folder/_index.md",
+    "content/docs/folder/leaf.md",
+    "content/docs/first-page.md",
+    "content/docs/_index.md",
+    "README.md",
+    "public/images/logo.svg",
+    "public/images/logo-dark.svg"
+  ]
+}
