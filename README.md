@@ -1,9 +1,9 @@
 <div align="center">
   <h1 align="center">Hextra</h1>
   <sup align="center"><a href="README.md">English</a> | <a href="README.zh-cn.md">简体中文</a> ｜ <a href="README.fa.md">فارسی</a></sup>
-  <p align="center">Modern, responsive, batteries-included Hugo theme for creating beautiful static websites.</p>
+  <p align="center">用于创建美观的静态站点的现代化, 响应式, 功能强大的 Hugo 主题.</p>
 
-Demo → [imfing.github.io/hextra](https://imfing.github.io/hextra/)
+演示 → [imfing.github.io/hextra](https://imfing.github.io/hextra/)
 </div>
 
 <picture>
@@ -15,34 +15,31 @@ Demo → [imfing.github.io/hextra](https://imfing.github.io/hextra/)
 <a href="https://github.com/imfing/hextra/actions/workflows/pages.yml"><img alt="GitHub Actions Status" src="https://github.com/imfing/hextra/actions/workflows/pages.yml/badge.svg"></a> <a href="https://app.netlify.com/sites/hugo-hextra/deploys"><img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/61d6e55a-2447-487e-b59f-c9537e5df175/deploy-status"></a>
 </div>
 
-## Features
+## 特性
 
-- **Beautiful Design** - Inspired by Nextra, Hextra utilizes Tailwind CSS to offer a modern design that makes your site look outstanding.
-- **Responsive Layout and Dark Mode** - It looks great on all devices, from mobile to desktop. Dark mode is also supported to accommodate various lighting conditions.
-- **Fast and Lightweight** - Powered by Hugo, a lightning-fast static-site generator housed in a single binary file, Hextra keeps its footprint minimal. No JavaScript or Node.js are needed to use it.
-- **Full-text Search** - Built-in offline full-text search powered by FlexSearch, no extra configuration required.
-- **Battery-included** - Markdown, syntax highlighting, LaTeX math formulae, diagrams and Shortcodes elements to enhance your content. Table of contents, breadcrumbs, pagination, sidebar navigation and more are all automatically generated.
-- **Multi-language and SEO Ready** - Multi-language sites made easy with Hugo's multilingual mode. Out-of-the-box support is included for SEO tags, Open Graph, and Twitter Cards.
+- **美观的设计** - 受 Nextra 的启发，Hextra 利用 Tailwind CSS 提供现代化的设计，使您的网站看起来美观有加.
+- **响应式布局和深色模式支持** - 在任何设备上看起来都足够美观, 无论是手机, 平板电脑或者电脑. 深色模式的支持使 Hextra 可以应对各种照明环境.
+- **快速且轻量** - 由 Hugo 强力支持, Hugo 是一个快如闪电的静态站点生成器, 这一切都只需一个可执行文件, Hextra 始终保持最小化, 无需 Javascript 或者 Node.js.
+- **全文搜索** - 集成了 Flexsearch 的全文搜索, 无需额外的配置.
+- **功能齐全** - Markdown, 代码高亮, LaTex 数学公式, diagrams 图表和 Shortcodes 都可以用于丰富你的内容. 目录, 面包屑导航, 分页, 侧边栏等均由 Hextra 自动生成。
+- **多语言和 SEO Ready** - Hugo 的多语言模式使得构建多语言网站更简单. 具有 SEO tags, Open Graph, 和 Twitter Cards 等诸多开箱即用的功能.
 
-## Quick Start
+## 快速开始
 
-### Use the template
+### 使用模板
 
-Using the [Hextra Starter Template](https://github.com/imfing/hextra-starter-template) is the simplest method to bootstrap a new website with Hextra theme. Get started by clicking the "Use this template" button on the template repository page.
+使用 [Hextra stater template](https://github.com/imfing/hextra-starter-template) 是使用 Hextra 主题的最简单方法. 点击仓库页面上的 `Use this template` 按钮开始使用.
 
-The template repository also includes a [GitHub Actions workflow](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow) for deploying your website to GitHub Pages.
+此仓库中包含一个 [GitHub Actions workflow](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow) 来帮助你免费在 GitHub Pages 上自动构建和部署网站.
 
-<img alt="Hextra Starter Template" src="https://user-images.githubusercontent.com/5097752/263551418-c403b9a9-a76c-47a6-8466-513d772ef0b7.jpg" width=600/>
+### 使用
 
-### Usage
+转至[文档](https://imfing.github.io/hextra/zh-cn/docs)
 
-Refer to the [documentation](https://imfing.github.io/hextra/docs) for more information.
+## 贡献
 
-## Contributing
+该项目正在积极开发中. 欢迎贡献!
 
-Contributions are welcome.
-Check out the [contributing guide](.github/CONTRIBUTING.md) to get started.
-
-## License
+## 许可证
 
 [MIT License](./LICENSE)
