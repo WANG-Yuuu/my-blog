@@ -1,18 +1,18 @@
 ---
-title: Comments System
-linkTitle: Comments
+title: 评论系统
+linkTitle: 评论
 ---
 
-Hextra supports adding comments system to your site.
-Currently [giscus](https://giscus.app/) is supported.
+Hextra 支持为您的网站添加评论系统。
+目前支持 [giscus](https://giscus.app/)。
 
 <!--more-->
 
 ## giscus
 
-[giscus](https://giscus.app/) is a comments system powered by [GitHub Discussions](https://docs.github.com/en/discussions). It is free and open source.
+[giscus](https://giscus.app/) 是一个由 [GitHub Discussions](https://docs.github.com/en/discussions) 驱动的评论系统。它是免费且开源的。
 
-To enable giscus, you need to add the following to the site configuration file:
+要启用 giscus，您需要在网站配置文件中添加以下内容：
 
 ```yaml {filename="hugo.yaml"}
 params:
@@ -21,19 +21,19 @@ params:
     type: giscus
 
     giscus:
-      repo: <repository>
-      repoId: <repository ID>
-      category: <category>
-      categoryId: <category ID>
+      repo: <仓库>
+      repoId: <仓库 ID>
+      category: <分类>
+      categoryId: <分类 ID>
 ```
 
-The giscus configurations can be constructed from the [giscus.app](https://giscus.app/) website. More details can also be found there.
+giscus 的配置可以从 [giscus.app](https://giscus.app/) 网站生成。更多详情也可以在那里找到。
 
-Comments can be enabled or disabled for a specific page in the page front matter:
+可以在页面的 front matter 中为特定页面启用或禁用评论：
 
 ```yaml {filename="content/docs/about.md"}
 ---
-title: About
+title: 关于
 comments: true
 ---
 ```

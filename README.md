@@ -1,9 +1,8 @@
 <div align="center">
-  <h1 align="center">Hextra</h1>
-  <sup align="center"><a href="README.md">English</a> | <a href="README.zh-cn.md">简体中文</a> ｜ <a href="README.fa.md">فارسی</a></sup>
-  <p align="center">用于创建美观的静态站点的现代化, 响应式, 功能强大的 Hugo 主题.</p>
+  <h1 align="center">WangYu's HOME</h1>
+  <p align="center">For Madmen Only.</p>
 
-演示 → [imfing.github.io/hextra](https://imfing.github.io/hextra/)
+网站 → [yu-wang.me](https://yu-wang.me/)
 </div>
 
 <picture>
@@ -11,9 +10,7 @@
   <img alt="Hextra" src="https://user-images.githubusercontent.com/5097752/263550528-663599f9-17a1-4686-b5c4-3da233b5034d.png">
 </picture>
 
-<div align="right">
-<a href="https://github.com/imfing/hextra/actions/workflows/pages.yml"><img alt="GitHub Actions Status" src="https://github.com/imfing/hextra/actions/workflows/pages.yml/badge.svg"></a> <a href="https://app.netlify.com/sites/hugo-hextra/deploys"><img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/61d6e55a-2447-487e-b59f-c9537e5df175/deploy-status"></a>
-</div>
+
 
 ## 特性
 
@@ -24,22 +21,42 @@
 - **功能齐全** - Markdown, 代码高亮, LaTex 数学公式, diagrams 图表和 Shortcodes 都可以用于丰富你的内容. 目录, 面包屑导航, 分页, 侧边栏等均由 Hextra 自动生成。
 - **多语言和 SEO Ready** - Hugo 的多语言模式使得构建多语言网站更简单. 具有 SEO tags, Open Graph, 和 Twitter Cards 等诸多开箱即用的功能.
 
-## 快速开始
+## 部署方式
 
-### 使用模板
+本博客使用 **Cloudflare Pages** 进行部署，享受全球 CDN 加速和无限带宽。
 
-使用 [Hextra stater template](https://github.com/imfing/hextra-starter-template) 是使用 Hextra 主题的最简单方法. 点击仓库页面上的 `Use this template` 按钮开始使用.
+### 本地开发
 
-此仓库中包含一个 [GitHub Actions workflow](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow) 来帮助你免费在 GitHub Pages 上自动构建和部署网站.
+```bash
+# 安装依赖
+npm install
 
-### 使用
+# 启动开发服务器
+cd docs && hugo server -D
 
-转至[文档](https://imfing.github.io/hextra/zh-cn/docs)
+# 本地构建测试
+./build-cloudflare.sh
+```
 
-## 贡献
+### 自动部署
 
-该项目正在积极开发中. 欢迎贡献!
+推送代码到 GitHub 后，Cloudflare Pages 会自动检测并部署：
+
+1. 构建命令: `cd docs && hugo --gc --minify --themesDir ../..`
+2. 输出目录: `docs/public`
+3. 环境变量: Hugo 0.147.7, Go 1.24.3, Node 22.16.0
+
+### 迁移指南
+
+如需从 Netlify 迁移到 Cloudflare Pages，请查看 [CLOUDFLARE_MIGRATION.md](./CLOUDFLARE_MIGRATION.md)
+
+## 技术栈
+
+- **框架**: [Hugo](https://gohugo.io/) - 快速的静态网站生成器
+- **主题**: [Hextra](https://github.com/imfing/hextra) - 现代化响应式主题
+- **部署**: [Cloudflare Pages](https://pages.cloudflare.com/) - 全球 CDN 加速
+- **样式**: [Tailwind CSS](https://tailwindcss.com/) - 实用优先的 CSS 框架
 
 ## 许可证
 
-[MIT License](./LICENSE)
+基于 Hextra 主题构建，遵循 [MIT License](./LICENSE)

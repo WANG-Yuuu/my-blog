@@ -1,39 +1,38 @@
 ---
-linkTitle: "Documentation"
-title: Introduction
+linkTitle: "文档"
+title: 简介
 ---
 
-👋 Hello! Welcome to the Hextra documentation!
+👋 你好！欢迎来到 Hextra 文档中心！
 
 <!--more-->
 
-## What is Hextra?
+## 什么是 Hextra？
 
-Hextra is a modern, fast and batteries-included [Hugo][hugo] theme built with [Tailwind CSS][tailwind-css].
-Designed for building beautiful websites for documentation, blogs, and websites, it provides out-of-the-box features and flexibility to meet various requirements.
+Hextra 是一个基于 [Tailwind CSS][tailwind-css] 构建的现代化、高性能且开箱即用的 [Hugo][hugo] 主题。专为打造文档、博客和网站而设计，它提供丰富的内置功能和灵活配置，满足多样化需求。
 
-## Features
+## 核心特性
 
-- **Beautiful Design** - Inspired by Nextra, Hextra utilizes Tailwind CSS to offer a modern design that makes your site look outstanding.
-- **Responsive Layout and Dark Mode** - It looks great on all devices, from mobile, tablet to desktop. Dark mode is also supported to accommodate various lighting conditions.
-- **Fast and Lightweight** - Powered by Hugo, a lightning-fast static-site generator housed in a single binary file, Hextra keeps its footprint minimal. No JavaScript or Node.js are needed to use it.
-- **Full-text Search** - Built-in offline full-text search powered by FlexSearch, no additional configuration required.
-- **Battery-included** - Markdown, syntax highlighting, LaTeX math formulae, diagrams and Shortcodes elements to enhance your content. Table of contents, breadcrumbs, pagination, sidebar navigation and more are all automatically generated.
-- **Multi-language and SEO Ready** - Multi-language sites made easy with Hugo's multilingual mode. Out-of-the-box support is included for SEO tags, Open Graph, and Twitter Cards.
+- **精美设计** - 灵感源自 Nextra，采用 Tailwind CSS 实现现代美学，让您的站点脱颖而出。
+- **响应式布局与暗黑模式** - 完美适配移动设备、平板及桌面端，并支持根据环境光线自动切换的暗黑模式。
+- **极速轻量** - 依托 Hugo 静态网站生成器的单文件二进制架构，无需 JavaScript 或 Node.js 环境即可运行。
+- **全文搜索** - 内置基于 FlexSearch 的离线全文搜索功能，零配置开箱即用。
+- **功能完备** - 支持 Markdown 语法高亮、LaTeX 数学公式、图表和 Shortcodes 等丰富内容元素。自动生成目录导航、面包屑、分页及侧边栏等组件。
+- **多语言与 SEO 友好** - 通过 Hugo 多语言模式轻松构建国际化站点，原生集成 SEO 标签、Open Graph 和 Twitter Cards 支持。
 
-## Questions or Feedback?
+## 问题或建议？
 
 {{< callout emoji="❓" >}}
-  Hextra is still in active development.
-  Have a question or feedback? Feel free to [open an issue](https://github.com/imfing/hextra/issues)!
+  Hextra 仍在积极开发中。
+  如有疑问或反馈，欢迎[提交 Issue](https://github.com/imfing/hextra/issues)！
 {{< /callout >}}
 
-## Next
+## 下一步
 
-Dive right into the following section to get started:
+立即开始探索：
 
 {{< cards >}}
-  {{< card link="getting-started" title="Getting Started" icon="document-text" subtitle="Learn how to create website using Hextra" >}}
+  {{< card link="getting-started" title="快速开始" icon="document-text" subtitle="学习如何使用 Hextra 创建网站" >}}
 {{< /cards >}}
 
 [hugo]: https://gohugo.io/

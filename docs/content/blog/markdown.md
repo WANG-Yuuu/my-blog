@@ -1,5 +1,5 @@
 ---
-title: Markdown Syntax Guide
+title: Markdown 语法指南
 date: 2020-01-01
 authors:
   - name: imfing
@@ -10,82 +10,82 @@ authors:
     image: https://github.com/octocat.png
 tags:
   - Markdown
-  - Example
-  - Guide
+  - 示例
+  - 指南
 excludeSearch: true
 ---
 
-This article offers a sample of basic Markdown syntax that can be used in Hugo content files.
+本文展示了 Hugo 内容文件中可用的基础 Markdown 语法示例。
 <!--more-->
 
-## Basic Syntax
+## 基础语法
 
-### Headings
+### 标题
 
 ```
-# Heading 1
-## Heading 2
-### Heading 3
-#### Heading 4
-##### Heading 5
-###### Heading 6
+# 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
 ```
 
-## Heading 2
-### Heading 3
-#### Heading 4
-##### Heading 5
-###### Heading 6
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
 
-### Emphasis
+### 强调
 
 ```text
-*This text will be italic*
-_This will also be italic_
+*这段文字会显示为斜体*
+_这段文字也会显示为斜体_
 
-**This text will be bold**
-__This will also be bold__
+**这段文字会显示为粗体**
+__这段文字也会显示为粗体__
 
-_You **can** combine them_
+_你可以**组合**使用_
 ```
 
-*This text will be italic*
+*这段文字会显示为斜体*
 
-_This will also be italic_
+_这段文字也会显示为斜体_
 
-**This text will be bold**
+**这段文字会显示为粗体**
 
-__This will also be bold__
+__这段文字也会显示为粗体__
 
-_You **can** combine them_
+_你可以**组合**使用_
 
-### Lists
+### 列表
 
-#### Unordered
-
-```
-* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
-```
-
-* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
-
-#### Ordered
+#### 无序列表
 
 ```
-1. Item 1
-2. Item 2
-3. Item 3
-   1. Item 3a
-   2. Item 3b
+* 项目1
+* 项目2
+  * 子项目2a
+  * 子项目2b
 ```
 
-### Images
+* 项目1
+* 项目2
+  * 子项目2a
+  * 子项目2b
+
+#### 有序列表
+
+```
+1. 项目1
+2. 项目2
+3. 项目3
+   1. 子项目3a
+   2. 子项目3b
+```
+
+### 图片
 
 ```markdown
 ![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
@@ -93,7 +93,7 @@ _You **can** combine them_
 
 ![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
 
-### Links
+### 链接
 
 ```markdown
 [Hugo](https://gohugo.io)
@@ -101,27 +101,27 @@ _You **can** combine them_
 
 [Hugo](https://gohugo.io)
 
-### Blockquotes
+### 引用块
 
 ```markdown
-As Newton said:
+正如牛顿所说：
 
-> If I have seen further it is by standing on the shoulders of Giants.
+> 如果说我看得比别人更远些，那是因为我站在巨人的肩膀上。
 ```
 
-> If I have seen further it is by standing on the shoulders of Giants.
+> 如果说我看得比别人更远些，那是因为我站在巨人的肩膀上。
 
-### Inline Code
+### 行内代码
 
 ```markdown
-Inline `code` has `back-ticks around` it.
+行内`代码`会用`反引号包裹`起来。
 ```
 
-Inline `code` has `back-ticks around` it.
+行内`代码`会用`反引号包裹`起来。
 
-### Code Blocks
+### 代码块
 
-#### Syntax Highlighting
+#### 语法高亮
 
 ````markdown
 ```go
@@ -137,21 +137,21 @@ func main() {
 }
 ```
 
-### Tables
+### 表格
 
 ```markdown
-| Syntax    | Description |
+| 语法      | 描述         |
 | --------- | ----------- |
-| Header    | Title       |
-| Paragraph | Text        |
+| 标题      | 标题文本     |
+| 段落      | 正文内容     |
 ```
 
-| Syntax    | Description |
+| 语法      | 描述         |
 | --------- | ----------- |
-| Header    | Title       |
-| Paragraph | Text        |
+| 标题      | 标题文本     |
+| 段落      | 正文内容     |
 
-## References
+## 参考资料
 
-- [Markdown Syntax](https://www.markdownguide.org/basic-syntax/)
+- [Markdown 语法](https://www.markdownguide.org/basic-syntax/)
 - [Hugo Markdown](https://gohugo.io/content-management/formats/#markdown)

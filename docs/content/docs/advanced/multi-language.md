@@ -1,16 +1,16 @@
 ---
-title: "Multi-language"
+title: "多语言支持"
 weight: 1
 prev: /docs/advanced
 ---
 
-Hextra supports creating site with multiple languages using Hugo's [multilingual mode](https://gohugo.io/content-management/multilingual/).
+Hextra 支持使用 Hugo 的[多语言模式](https://gohugo.io/content-management/multilingual/)创建多语言网站。
 
 <!--more-->
 
-## Enable Multi-language
+## 启用多语言功能
 
-To make our site multi-language, we need to tell Hugo the supported languages. We need to add to the site configuration file:
+要使网站支持多语言，我们需要在站点配置文件中指定支持的语言：
 
 ```yaml {filename="hugo.yaml"}
 defaultContentLanguage: en
@@ -26,9 +26,9 @@ languages:
     weight: 3
 ```
 
-## Manage Translations by Filename
+## 通过文件名管理翻译
 
-Hugo supports managing translations by filename. For example, if we have a file `content/docs/_index.md` in English, we can create a file `content/docs/_index.fr.md` for French translation.
+Hugo 支持通过文件名管理翻译。例如，如果我们有一个英文文件 `content/docs/_index.md`，可以创建 `content/docs/_index.fr.md` 作为法语翻译。
 
 {{< filetree/container >}}
   {{< filetree/folder name="content" >}}
@@ -40,11 +40,11 @@ Hugo supports managing translations by filename. For example, if we have a file 
   {{< /filetree/folder >}}
 {{< /filetree/container >}}
 
-Note: Hugo also supports [Translation by content directory](https://gohugo.io/content-management/multilingual/#translation-by-content-directory).
+注意：Hugo 还支持[通过内容目录翻译](https://gohugo.io/content-management/multilingual/#translation-by-content-directory)。
 
-## Translate Menu Items
+## 翻译菜单项
 
-To translate menu items in the navigation bar, we need to set the `identifier` field:
+要翻译导航栏中的菜单项，需要设置 `identifier` 字段：
 
 ```yaml {filename="hugo.yaml"}
 menu:
@@ -59,25 +59,25 @@ menu:
       weight: 2
 ```
 
-and translate them in the corresponding i18n file:
+并在对应的 i18n 文件中进行翻译：
 
 ```yaml {filename="i18n/fr.yaml"}
 documentation: Documentation
 blog: Blog
 ```
 
-## Translate Strings
+## 翻译字符串
 
-To translate strings on the other places, we need to add the translation to the corresponding i18n file:
+要翻译其他位置的字符串，需要将翻译添加到对应的 i18n 文件中：
 
 ```yaml {filename="i18n/fr.yaml"}
 readMore: Lire la suite
 ```
 
-A list of strings used in the theme can be found in the `i18n/en.yaml` file.
+主题中使用的字符串列表可以在 `i18n/en.yaml` 文件中找到。
 
-## Read More
+## 延伸阅读
 
-- [Hugo Multilingual Mode](https://gohugo.io/content-management/multilingual/)
-- [Hugo Multilingual Part 1: Content translation](https://www.regisphilibert.com/blog/2018/08/hugo-multilingual-part-1-managing-content-translation/)
-- [Hugo Multilingual Part 2: Strings localization](https://www.regisphilibert.com/blog/2018/08/hugo-multilingual-part-2-i18n-string-localization/)
+- [Hugo 多语言模式](https://gohugo.io/content-management/multilingual/)
+- [Hugo 多语言第一部分：内容翻译](https://www.regisphilibert.com/blog/2018/08/hugo-multilingual-part-1-managing-content-translation/)
+- [Hugo 多语言第二部分：字符串本地化](https://www.regisphilibert.com/blog/2018/08/hugo-multilingual-part-2-i18n-string-localization/)

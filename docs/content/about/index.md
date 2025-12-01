@@ -1,17 +1,17 @@
 ---
-title: About
+title: 关于
 toc: false
 ---
 
-Hextra is designed to be a simple, fast, and flexible theme for building modern static websites. It is especially well-suited for documentation websites but can also be used for various types of sites, such as blogs, portfolios, and more.
+Hextra 是一款专为构建现代化静态网站而设计的简洁、快速且灵活的主题。它尤其适合搭建文档类网站，同时也能轻松驾驭博客、作品集等多种站点类型。
 
-Hugo, like Jekyll, is a static site generator. What sets Hugo apart is that it is a single binary, making it easy to install and run on various platforms. It is also extremely fast and reliable, capable of rendering a site with thousands of pages in milliseconds.
+与 Jekyll 类似，Hugo 同样是一款静态网站生成器。其独特之处在于采用单一二进制文件，可在多平台轻松安装运行。Hugo 以极致的速度与稳定性著称，能在毫秒间渲染包含数千页面的网站。
 
-Hextra is built with a mindset focused on having a minimal footprint. To get started, no extra dependencies like Node.js packages are required; all you need is a single YAML configuration file, along with your Markdown content. Thus, we can focus on writing quality content instead of setting up tooling.
+Hextra 秉持极简理念开发。您无需安装 Node.js 等额外依赖，仅需一个 YAML 配置文件搭配 Markdown 内容即可快速开始。这让我们能专注于创作优质内容，而非配置工具链。
 
-## Credits
+## 致谢
 
-Hextra cannot be built without the following tools and inspirations:
+Hextra 的诞生离不开以下工具与灵感的启发：
 
 - [Hugo](https://gohugo.io/)
 - [Tailwind CSS](https://tailwindcss.com/)

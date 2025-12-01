@@ -1,16 +1,16 @@
 ---
-linkTitle: Advanced
-title: Advanced Topics
+linkTitle: 高级
+title: 高级主题
 prev: /docs/guide/shortcodes/tabs
 next: /docs/advanced/multi-language
 ---
 
-This section covers some advanced topics of the theme.
+本节涵盖该主题的一些高级内容。
 
 <!--more-->
 
 {{< cards >}}
-  {{< card link="multi-language" title="Multi-language" icon="translate" >}}
-  {{< card link="customization" title="Customization" icon="pencil" >}}
-  {{< card link="comments" title="Comments System" icon="chat-alt" >}}
+  {{< card link="multi-language" title="多语言支持" icon="translate" >}}
+  {{< card link="customization" title="自定义配置" icon="pencil" >}}
+  {{< card link="comments" title="评论系统" icon="chat-alt" >}}
 {{< /cards >}}

@@ -1,0 +1,18 @@
+name = "my-blog"
+compatibility_date = "2025-12-01"
+
+[site]
+bucket = "./docs/public"
+
+# Pages 项目配置
+pages_build_output_dir = "./docs/public"
+
+# 构建配置（在 Cloudflare Dashboard 中配置，这里仅作记录）
+# Build command: cd docs && hugo --gc --minify --themesDir ../..
+# Build output directory: docs/public
+# Root directory: /
+
+# 环境变量（在 Cloudflare Dashboard 中配置）
+# HUGO_VERSION = "0.147.7"
+# GO_VERSION = "1.24.3"
+# NODE_VERSION = "22.16.0"
