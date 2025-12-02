@@ -16,23 +16,8 @@
               "icon": "bookmark",
               "title": "Pkmer Market"
             }
-          },
-          {
-            "id": "0c5436009625cc7a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/pm/folder/_index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "_index"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -197,34 +182,53 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "0c5436009625cc7a",
+  "active": "a2acee80c8bf6870",
   "lastOpenFiles": [
-    "content/pm/_index.md",
-    "content/about.md",
-    "content/_index.md",
-    "public/android-chrome-512x512.png",
-    "public/pm/folder/leaf/index.html",
-    "public/pm/folder/leaf",
-    "public/pm/folder/index.xml",
-    "public/pm/first-page/index.html",
-    "public/pm/folder/index.html",
-    "public/pm/index.xml",
-    "public/pm/index.html",
-    "public/pm/folder",
-    "public/pm/first-page",
-    "public/pm",
+    "pages.yaml.backup",
+    "netlify.toml",
+    "hugo.yaml",
+    "go.sum",
+    "go.mod",
     "content/pm/folder/leaf.md",
     "content/pm/folder/_index.md",
+    "content/pm/folder",
     "content/pm/first-page.md",
-    "public/android-chrome-192x192.png",
-    "public/apple-touch-icon.png",
-    "public/favicon.svg",
-    "content/docs/folder/_index.md",
-    "content/docs/folder/leaf.md",
-    "content/docs/first-page.md",
-    "content/docs/_index.md",
+    "content/pm/_index.md",
+    "content/pm",
+    "content/about.md",
+    "content/_index.md",
+    "content",
     "README.md",
-    "public/images/logo.svg",
-    "public/images/logo-dark.svg"
+    "LICENSE",
+    "theme.toml",
+    "taskfile.yaml",
+    "README.zh-cn.md",
+    "README.fa.md",
+    "CLAUDE.md",
+    "static/images/logo.svg",
+    "static/images/logo-dark.svg",
+    "static/favicon.svg",
+    "static/favicon-32x32.png",
+    "static/favicon-16x16.png",
+    "static/apple-touch-icon.png",
+    "static/android-chrome-512x512.png",
+    "static/android-chrome-192x192.png",
+    "images/screenshot.jpg",
+    "images/tn.jpg",
+    "examples/README.md",
+    "docs/content/docs/guide/shortcodes/tabs.zh-cn.md",
+    "docs/content/docs/guide/shortcodes/tabs.md",
+    "docs/content/docs/guide/shortcodes/tabs.ja.md",
+    "docs/content/docs/guide/shortcodes/tabs.fa.md",
+    "docs/content/docs/guide/shortcodes/steps.zh-cn.md",
+    "docs/content/docs/guide/shortcodes/steps.md",
+    "docs/content/docs/guide/shortcodes/steps.ja.md",
+    "docs/content/docs/guide/shortcodes/steps.fa.md",
+    "docs/content/docs/guide/shortcodes/others.zh-cn.md",
+    "docs/content/docs/guide/shortcodes/others.md",
+    "docs/content/docs/guide/shortcodes/others.ja.md",
+    "docs/content/docs/guide/shortcodes/others.fa.md",
+    "docs/content/docs/guide/shortcodes/jupyter.zh-cn.md",
+    "docs/content/docs/guide/shortcodes/jupyter.md"
   ]
 }
